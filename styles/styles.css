@@ -1,0 +1,101 @@
+/* uploader div styles */
+
+.main #uploader_div {
+    flex-direction: column
+
+}
+
+.main #toggle_button {
+    border: 1px solid black;
+    border-radius: 5px;
+    background: white;
+    width: 100px;
+
+  
+}
+
+#button_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%
+}
+
+#image_and_captions {
+    border: 1px solid black;
+    border-radius: 20px;
+    display: block;
+
+}
+
+#image_submission {
+    display: flex;
+    background-color: rgb(232, 232, 232);
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    border: 1px solid black;
+
+}
+
+.main {
+    margin: 2px;
+}
+
+#file_opener_button {
+    height: 40px;
+    border-radius: 0px;
+    border: 1px solid black;
+}
+
+#type_caption {
+    border-radius: 0px;
+    width: 90%;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 25px;
+}
+
+#submit_button {
+    border-radius: 0px;
+    background-color: white;
+    width: 110px;
+    height: 25px;
+    border: 1px solid black;
+}
+/* preview div styles */
+/* change background color back to white after testing */
+#preview_div {
+    border: 1px solid black;
+    display: flex;
+    position: absolute;
+    bottom: 50px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 1495px;
+    height: 525px;
+    overflow:scroll; 
+}
+/* customization div styles */
+#customization_div {
+    position: absolute;
+    bottom: 0;
+    margin: 10px;
+    width: 100%;
+    justify-content: flex-end; /* Aligns children (e.g., button) to the right */
+
+
+}
+
+#export_button {
+    border: 1px solid black;
+    background-color: #007bff; 
+    color: white;
+
+}
+
